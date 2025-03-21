@@ -1,0 +1,129 @@
+/* src/pages/AboutUs.css */
+.about-us-container {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  font-family: "Arial", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-us-title {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-us-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.company-info,
+.team-info,
+.our-mission {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 48%;
+}
+
+.company-info h2,
+.team-info h2,
+.our-mission h2 {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.company-info p,
+.our-mission p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.team-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.team-member {
+  text-align: center;
+  width: 30%;
+}
+
+.team-member-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.our-mission {
+  margin-top: 40px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about-us-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .company-info,
+  .team-info,
+  .our-mission {
+    width: 100%;
+  }
+
+  .team-info {
+    display: block;
+  }
+
+  .team-member {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-us-title {
+    font-size: 2rem; /* Make the title smaller for mobile screens */
+  }
+
+  .company-info p,
+  .our-mission p {
+    font-size: 1rem; /* Adjust the text size for mobile */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Additional styling for larger screens */
+  .about-us-container {
+    padding: 60px 40px;
+  }
+
+  .about-us-title {
+    font-size: 3rem;
+  }
+
+  .company-info p,
+  .our-mission p {
+    font-size: 1.2rem;
+  }
+}

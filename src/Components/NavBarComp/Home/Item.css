@@ -1,0 +1,43 @@
+.itemsT > img {
+  height: 50vh;
+  border-right: 1px solid grey;
+  margin: 10px 10px -30px 10px;
+}
+.text {
+  line-height: 2px;
+  padding-bottom: 10px;
+}
+.addToCart > img,
+.RemoveFromCart > img {
+  width: 20px;
+  height: 30px;
+}
+.addToCart {
+  width: 25px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.addToCart {
+  background-color: rgba(0, 255, 0, 0.3);
+}
+.addToCart:hover {
+  background-color: rgb(0, 255, 0);
+}
+.RemoveFromCart {
+  background-color: rgba(255, 0, 0, 0.3);
+  width: 25px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.RemoveFromCart:hover {
+  background-color: rgb(255, 0, 0);
+}
+.carts {
+  display: flex;
+}

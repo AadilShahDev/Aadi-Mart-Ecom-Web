@@ -1,0 +1,25 @@
+.images {
+  width: 100vw;
+  background-color: rgba(151, 148, 148, 0.123);
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.clmImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+.clmImg > img {
+  width: 90%;
+  height: 40%;
+  margin: 3vw;
+}
+.images > img {
+  width: 30%;
+  margin: 3vw;
+}
+#img3 {
+  width: 40%;
+}

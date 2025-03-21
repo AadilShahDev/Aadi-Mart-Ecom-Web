@@ -1,0 +1,9 @@
+.btns {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+button:hover {
+  background-color: rgb(195, 172, 69);
+}

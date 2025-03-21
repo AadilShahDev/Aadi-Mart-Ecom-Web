@@ -1,0 +1,33 @@
+.NavBar {
+  height: 70px;
+  width: 100vw;
+  background-color: rgb(241, 216, 102);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+}
+
+.links {
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+input {
+  height: 25px;
+  border-style: none;
+}
+button {
+  height: 31px;
+  background-color: black;
+  color: white;
+  margin-right: 20px;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

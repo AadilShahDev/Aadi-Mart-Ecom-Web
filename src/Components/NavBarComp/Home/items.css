@@ -1,0 +1,11 @@
+.itemsDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.items {
+  width: 30%;
+  margin: 2%;
+}
